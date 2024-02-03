@@ -23,5 +23,5 @@ This is an Educational Website That is Fully Responsive and in Persian Language.
 
 ## Screenshots
 
-![App Screenshot](https://github.com/RezaSoofian/Persian-RentCar-website/blob/master/RM.1.png)
+![App Screenshot](https://github.com/RezaSoofian/educational-website/blob/master/images/web.img.png)
 
