@@ -1,0 +1,49 @@
+.container-fluid-custom {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+.contact i {
+  color: var(--secondry-color);
+  margin-right: 15px;
+  vertical-align: -10px;
+  cursor: pointer;
+}
+.contact span {
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+.social-media {
+  direction: ltr;
+}
+.social-media a {
+  color: var(--white-color);
+  transition: all ease 0.2;
+  -webkit-transition: all ease 0.2;
+  -moz-transition: all ease 0.2;
+  -ms-transition: all ease 0.2;
+  -o-transition: all ease 0.2;
+}
+.social-media i {
+  font-size: 20px;
+  vertical-align: -8px;
+  margin-right: 10px;
+  padding: 10px;
+}
+@media screen and (max-width: 768px) {
+  .mail {
+    display: none !important;
+  }
+}
+
+.social-media a.facebook:hover {
+  color: aqua;
+}
+.social-media a.telegram:hover {
+  color: cornflowerblue;
+}
+.social-media a.instagram:hover {
+  color: rgb(192, 7, 164);
+}
+.social-media a.rss:hover {
+  color: orange;
+}

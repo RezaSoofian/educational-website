@@ -1,0 +1,68 @@
+.section-title {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+}
+.section-title span {
+  position: relative;
+  display: inline-block;
+  color: var(--black-color);
+}
+.section-title span::before {
+  content: " ";
+  width: 70px;
+  height: 5px;
+  background-color: var(--primary-color);
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  right: 120px;
+}
+.section-title span::after {
+  content: " ";
+  width: 70px;
+  height: 5px;
+  background-color: var(--primary-color);
+  position: absolute;
+  border-radius: 5px;
+  top: 20px;
+  left: 120px;
+}
+.cart {
+  box-shadow: 0px 0px 7px 4px grey;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.cart-body span {
+  font-size: 25px;
+  padding: 20px;
+  margin-right: 10px;
+  color: var(--black-color);
+}
+.cart-body .course-title {
+  top: 5px;
+  right: 90px;
+}
+.cart-body a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.cart-body a:hover {
+  color: var(--secondry-color);
+}
+.cart-header .cart-overlay {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.2s ease-in;
+}
+.cart-overlay:hover {
+  opacity: 0.5;
+}
+.course-title p {
+  color: var(--black-color);
+  line-clamp: 3;
+}

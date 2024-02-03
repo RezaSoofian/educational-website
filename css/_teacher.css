@@ -1,0 +1,36 @@
+div.teacher-intro {
+  background-color: var(--white-color);
+  top: 25%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 40%;
+  height: 200px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 7px 4px grey;
+  text-align: center;
+}
+div.teacher-intro h4 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: var(--black-color);
+  font-size: 16px;
+}
+div.teacher-intro p{
+  margin-bottom: 30px;
+  color: var(--black-color);
+}
+div.teacher-intro a {
+  text-decoration: none;
+  color: var(--black-color);
+  padding: 5px;
+  border: 2px solid var(--primary-color);
+  font-size: 17px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.teacher-intro a:hover {
+  border: 2px solid var(--secondry-color);
+}

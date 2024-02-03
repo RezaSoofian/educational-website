@@ -1,0 +1,128 @@
+.footer-section-wrapper {
+  background-color: var(--primary-color);
+  min-height: 250px;
+  margin-top: 50px;
+}
+.footer-section-wrapper .copy-right {
+  padding: 10px;
+  color: rgb(30, 29, 29);
+  border-top: 2px dashed var(--secondry-color);
+}
+.footer-section-wrapper .desc {
+  padding: 15px;
+}
+.footer-section-wrapper .desc a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: 18px;
+}
+.footer-section-wrapper .desc a i {
+  transform: rotate(30deg);
+  color: var(--secondry-color);
+  font-size: 30px;
+  padding-left: 15px;
+}
+.footer-section-wrapper .desc p {
+  color: rgb(30, 29, 29);
+  font-size: 15px;
+  padding-top: 15px;
+}
+.footer-section-wrapper .service {
+  color: var(--white-color);
+  padding: 15px;
+}
+.footer-section-wrapper .service h6 {
+  font-size: 17px;
+  border-bottom: 1px solid var(--black-color);
+  padding-bottom: 5px;
+}
+.footer-section-wrapper .service ul li {
+  list-style: none;
+  font-size: 14px;
+  padding: 3px;
+  color: rgb(30, 29, 29);
+}
+.footer-section-wrapper .service a {
+  text-decoration: none;
+  color: rgb(30, 29, 29);
+  transition: 0.3s ease;
+}
+.footer-section-wrapper .service a:hover {
+  color: var(--secondry-color);
+  padding-right: 15px;
+}
+.footer-section-wrapper .service i {
+  color: rgb(30, 29, 29);
+  padding-left: 10px;
+  vertical-align: -3px;
+}
+.footer-section-wrapper .social {
+  color: var(--white-color);
+  padding: 15px;
+}
+.footer-section-wrapper .social h6 {
+  font-size: 16px;
+  color: var(--white-color);
+  border-bottom: 1px solid var(--black-color);
+  padding-bottom: 5px;
+}
+.footer-section-wrapper .social ul {
+  margin: 10px;
+  text-align: center;
+}
+.footer-section-wrapper .social ul li {
+  list-style: none;
+  display: inline;
+  font-size: 25px;
+}
+.footer-section-wrapper .social ul a {
+  color: rgb(30, 29, 29);
+  padding-right: 15px;
+  transition: 0.3s ease;
+}
+.footer-section-wrapper .social ul a:hover {
+  color: var(--secondry-color);
+}
+.footer-section-wrapper .social form input[type="button"] {
+  padding: 6px;
+  top: 0;
+  left: 0;
+  border: none;
+  background-color: var(--black-color);
+  color: var(--white-color);
+  transition: all ease 0.2s;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+}
+.footer-section-wrapper .social form input[type="button"]:hover {
+  background-color: var(--secondry-color);
+}
+.footer-section-wrapper .social form input[type="text"] {
+  width: 100%;
+  height: 33px;
+  outline: none;
+  padding-right: 10px;
+}
+.footer-section-wrapper .contact-us {
+  color: var(--white-color);
+  padding: 15px;
+}
+.footer-section-wrapper .contact-us h6 {
+  font-size: 16px;
+  color: var(--white-color);
+  border-bottom: 1px solid var(--black-color);
+  padding-bottom: 5px;
+}
+.footer-section-wrapper .contact-us ul li {
+  list-style: none;
+  padding: 5px;
+  color: rgb(30, 29, 29);
+}
+.footer-section-wrapper .contact-us ul li i {
+  padding-left: 9px;
+  color: var(--secondry-color);
+}

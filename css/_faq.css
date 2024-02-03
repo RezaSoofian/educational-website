@@ -1,0 +1,85 @@
+.faq-section-wrapper {
+  background-color: var(--primary-color);
+  min-height: 500px;
+}
+.faq-section-wrapper .faq-right-side {
+  height: 400px;
+  background-color: var(--white-color);
+  margin-top: 50px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.faq-section-wrapper .faq-right-side ul li {
+  list-style: none;
+  padding-top: 30px;
+}
+.faq-section-wrapper .faq-right-side h5 i {
+  font-size: 35px;
+  vertical-align: -12px;
+  margin-left: 15px;
+  color: var(--secondry-color);
+}
+.faq-section-wrapper .faq-right-side h5 {
+  font-size: 23px;
+  padding: 20px 20px 0 20px;
+  color: var(--black-color);
+}
+.faq-section-wrapper .faq-right-side p {
+  padding-right: 70px;
+  font-size: 15px;
+  color: gray;
+}
+.faq-section-wrapper .faq-left-side{
+    margin-top: 50px;
+}
+.faq-section-wrapper .faq-left-side .tabs {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: -1px 0px 9px 5px #f2ebeb63;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.faq-section-wrapper .faq-left-side .tab {
+  overflow: hidden;
+}
+.faq-section-wrapper .faq-left-side .tab-label {
+  padding: 27px;
+  background-color: var(--secondry-color);
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  color: var(--black-color);
+}
+.faq-section-wrapper .faq-left-side .tab-label::after {
+  content: "\276f";
+  /* width: 15px;
+  height: 15px; */
+  text-align: center;
+  float: left;
+  transition:  0.4s;
+  padding: 2px 0 0 0;
+}
+.faq-section-wrapper .faq-left-side .tab-content {
+background-color: var(--white-color);
+height: 0;
+transition: .5s ease;
+/* padding: 10px; */
+font-size: 15px;
+
+}
+.faq-section-wrapper .faq-left-side input:checked ~ .tab-content {
+height: 100px;
+padding: 10px;
+overflow-y: scroll;
+}
+ .faq-section-wrapper .faq-left-side input:checked + .tab-label::after {
+  transform: rotate(-90deg);
+} 
+.faq-section-wrapper .faq-left-side input{
+    display: none;
+}

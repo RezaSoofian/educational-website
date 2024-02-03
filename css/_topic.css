@@ -1,0 +1,64 @@
+.topic-section-wrapper {
+  margin-top: 50px;
+  background-color: var(--white-color);
+}
+.topic-wrapper:hover img {
+  transform: scale(1.2) rotate(6deg);
+}
+.topic-wrapper .cart-header  img {
+  transition: ease 0.5s;
+/* height: 190px; */
+height: 180px;
+}
+.topic-wrapper .cart-header {
+  overflow: hidden;
+}
+.topic-wrapper .cart-body a {
+  font-size: 20px;
+}
+.topic-wrapper .cart-body {
+  margin: 35px 10px 25px 10px;
+}
+.topic-wrapper .cart-body .topic-details {
+  margin: 20px 0 40px 0;
+  color: grey;
+  font-size: 17px;
+}
+.topic-date {
+  text-align: center;
+  top: -61px;
+  right: 15px;
+}
+.topic-wrapper .cart-body .topic-date-number {
+  color: white;
+  background-color: orange;
+  padding: 0px 6px 0px 6px;
+   transition: .3s ease;
+}
+.topic-wrapper .cart-body .topic-date-month {
+  color:white;
+  background-color:rgb(178, 176, 176);
+  padding: 0px 6px 0px 6px;
+   transition: .3s ease;
+}
+.topic-wrapper .cart-footer ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 25px;
+  color: grey;
+}
+.topic-wrapper .cart-footer i {
+  padding: 5px;
+}
+.topic-section-wrapper .topic-wrapper .cart{
+  background-color: white;
+  box-shadow: -1px 0px 9px 5px #f2ebeb63;
+}
+.topic-section-wrapper .topic-wrapper .cart:hover .topic-date-month{
+  background-color: orange;
+  color:white;
+}
+.topic-section-wrapper .topic-wrapper .cart:hover .topic-date-number{
+  background-color: white;
+  color: orange;
+}

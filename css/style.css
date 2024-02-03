@@ -1,0 +1,24 @@
+@import "_contact.css";
+@import "_menu.css";
+@import "_header.css";
+@import "_course.css";
+@import "_abute-us.css";
+@import "_teacher.css";
+@import "_stat.css";
+@import "_topic.css";
+@import "_faq.css";
+@import "_footer.css";
+@font-face {
+  font-family: "Vazirmatn-Medium";
+  src: url(../fonts/Vazirmatn-Medium.eot) format("eot"),
+    url(../fonts/Vazirmatn-Medium.woff) format("woff"),
+    url(../fonts/Vazirmatn-Medium.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+:root {
+  --primary-color: #505cb9;
+  --secondry-color: #55b84d ;
+  --white-color: #f5eeee;
+  --black-color: #575252;
+}
